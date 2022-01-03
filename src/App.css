@@ -1,0 +1,187 @@
+body {
+  background: #141E30; 
+background: -webkit-linear-gradient(to bottom, #243B55, #141E30); 
+background: linear-gradient(to bottom, #243B55, #141E30); 
+
+}
+
+.App {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
+}
+
+.App header {
+  background: #2C3E50;  
+  background: -webkit-linear-gradient(to bottom, #4CA1AF, #2C3E50);  
+  background: linear-gradient(to bottom, #4CA1AF, #2C3E50); 
+
+  height: 10vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(40, 37, 53);
+}
+
+main {
+  padding: 10px;
+  height: 80vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+form {
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background: #4B79A1;  
+background: -webkit-linear-gradient(to bottom, #283E51, #4B79A1);  
+background: linear-gradient(to bottom, #283E51, #4B79A1); 
+
+  width: 100%;
+  max-width: 728px;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+form button {
+  width: 20%;
+  background-color: rgb(56, 56, 143);
+}
+
+
+input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  background: #2980b9; 
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  
+background: linear-gradient(to right, #2c3e50, #2980b9); 
+
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+}
+
+button {
+  background: #000000;  
+background: -webkit-linear-gradient(to top, #434343, #000000);  
+background: linear-gradient(to top, #434343, #000000); 
+ /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  font-family: 'Qwitcher Grypen', cursive;
+
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.sign-in{
+  color: wheat;
+  background: #4B79A1;  
+background: -webkit-linear-gradient(to bottom, #283E51, #4B79A1);  
+background: linear-gradient(to bottom, #283E51, #4B79A1); 
+
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Qwitcher Grypen', cursive;
+  
+}
+
+
+
+
+ul, li {
+  text-align: left;
+  list-style: none;
+}
+
+p {
+ 
+  size: 50px;
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  font-family: "Kite One", sans-serif;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+  font-family: 'Kite One', sans-serif;
+}
+
+.sent p {
+  font-family: 'Kite One', sans-serif;
+  background: #005C97;  
+background: -webkit-linear-gradient(to left, #363795, #005C97);  
+background: linear-gradient(to left, #363795, #005C97); 
+
+  align-self: flex-end;
+}
+.received p {
+  font-family: 'Kite One', sans-serif;
+  background: #457fca;  
+background: -webkit-linear-gradient(to right, #5691c8, #457fca);  
+background: linear-gradient(to right, #5691c8, #457fca); 
+
+  color: antiquewhite;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
